@@ -10,7 +10,7 @@ import React from 'react';
 
 /** Custom Imports */
 import Header from './components/Header/Header';
-import MovieList from './components/MovieList';
+import MovieList from './components/MovieList/MovieList';
 
 /** Data */
 import movies from './data';

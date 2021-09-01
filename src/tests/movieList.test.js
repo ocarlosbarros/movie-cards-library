@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
 import MovieCard from '../components/MovieCard/MovieCard';
-import MovieList from '../components/MovieList';
+import MovieList from '../components/MovieList/MovieList';
 
 const rating = 4.5;
 const ratingThree = 3;
