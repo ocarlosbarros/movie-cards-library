@@ -9,7 +9,7 @@ import './App.css';
 import React from 'react';
 
 /** Custom Imports */
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import MovieList from './components/MovieList';
 
 /** Data */
