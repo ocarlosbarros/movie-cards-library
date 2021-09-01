@@ -8,6 +8,7 @@ class MovieCard extends Component {
       <div>
         <img src={ movie.imagePath } alt={ movie.storyline } />
         <h4>{movie.title}</h4>
+        <h5>{movie.subtitle}</h5>
       </div>
     );
   }
