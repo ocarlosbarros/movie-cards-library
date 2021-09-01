@@ -17,10 +17,10 @@ import movies from './data';
 
 function App() {
   return (
-    <>
+    <main>
       <Header />
       <MovieList movies={ movies } />
-    </>
+    </main>
   );
 }
 
