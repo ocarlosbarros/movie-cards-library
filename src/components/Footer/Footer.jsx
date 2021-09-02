@@ -9,7 +9,6 @@ class Footer extends Component {
       <footer className="footer-page">
         <p>
           Desenvolvido com
-          {' '}
           <span className="hurt">&#128156;</span>
           <strong> | React </strong>
           |
