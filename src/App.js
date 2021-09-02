@@ -8,12 +8,14 @@ import MovieList from './components/MovieList/MovieList';
 
 /** Data */
 import movies from './data';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <main>
       <Header />
       <MovieList movies={ movies } />
+      <Footer />
     </main>
   );
 }

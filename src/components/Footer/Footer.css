@@ -1,0 +1,14 @@
+.footer-page{
+  background-color:#000814;
+  display:flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  padding:1em;
+  height:250px;
+}
+
+.footer-page p, strong, span{
+  color:white;
+  background-color:#000814;
+}
+
