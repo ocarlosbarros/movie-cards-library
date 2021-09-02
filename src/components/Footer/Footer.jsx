@@ -24,3 +24,9 @@ class Footer extends Component {
 }
 
 export default Footer;
+
+/**
+ * @author Carlos Barros
+ * @version 1.0.0
+ * @since 01/09/2021
+ */
