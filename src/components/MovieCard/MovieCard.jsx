@@ -1,6 +1,10 @@
 import './MovieCard.css';
+
+/** React Imports  */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+
+/** Custom Imports */
 import Rating from '../Rating/Rating';
 
 class MovieCard extends Component {

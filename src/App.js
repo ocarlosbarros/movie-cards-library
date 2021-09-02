@@ -1,14 +1,15 @@
-/** React Imports  */
 import './App.css';
+
+/** React Imports  */
 import React from 'react';
 
 /** Custom Imports */
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import MovieList from './components/MovieList/MovieList';
 
 /** Data */
 import movies from './data';
-import Footer from './components/Footer/Footer';
 
 function App() {
   return (

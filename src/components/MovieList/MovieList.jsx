@@ -1,7 +1,10 @@
 import './MovieList.css';
+
+/** React Imports  */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+/** Custom Imports */
 import MovieCard from '../MovieCard/MovieCard';
 
 class MovieList extends Component {
