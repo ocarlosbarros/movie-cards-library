@@ -2,6 +2,7 @@ import './App.css';
 
 /** React Imports  */
 import React from 'react';
+import Header from './components/Header/Header';
 
 /** Custom Imports */
 import MovieList from './components/MovieList/MovieList';
@@ -12,6 +13,7 @@ import movies from './data';
 function App() {
   return (
     <main>
+      <Header />
       <MovieList movies={ movies } />
     </main>
   );
