@@ -15,7 +15,8 @@ class Footer extends Component {
           |
           <strong> CSS | </strong>
           por
-          <strong className="developer"> Carlos Barros.</strong>
+          <strong className="developer"> Carlos Barros</strong>
+          .
         </p>
       </footer>
     );
