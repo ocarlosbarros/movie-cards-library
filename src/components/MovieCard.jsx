@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 /** Custom Imports */
-import Rating from '../Rating/Rating';
+import Rating from './Rating';
 
 class MovieCard extends Component {
   render() {

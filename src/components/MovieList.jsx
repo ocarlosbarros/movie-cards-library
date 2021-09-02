@@ -5,8 +5,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 /** Custom Imports */
-import MovieCard from '../MovieCard/MovieCard';
-import Footer from '../Footer/Footer';
+import MovieCard from './MovieCard';
+import Footer from './Footer';
 
 class MovieList extends Component {
   render() {

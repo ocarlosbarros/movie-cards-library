@@ -2,10 +2,10 @@ import './App.css';
 
 /** React Imports  */
 import React from 'react';
-import Header from './components/Header/Header';
+import Header from './components/Header';
 
 /** Custom Imports */
-import MovieList from './components/MovieList/MovieList';
+import MovieList from './components/MovieList';
 
 /** Data */
 import movies from './data';
