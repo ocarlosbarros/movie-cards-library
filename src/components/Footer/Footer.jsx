@@ -10,7 +10,15 @@ class Footer extends Component {
         <p>
           Desenvolvido com
           {/* Adiciona role e aria-label para o Emoji para melhor acessibilidade */}
-          <span role="img" aria-label="Coração na cor roxa" className="hurt"> &#128156;</span>
+          <span
+            role="img"
+            aria-label="Coração na cor roxa"
+            className="hurt"
+          >
+            {' '}
+            &#128156;
+
+          </span>
           <strong> | React </strong>
           |
           <strong> HTML</strong>
