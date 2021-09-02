@@ -14,7 +14,7 @@ class Footer extends Component {
           <strong> HTML</strong>
           |
           <strong> CSS | </strong>
-          por &copy
+          por
           <strong className="developer"> Carlos Barros.</strong>
         </p>
       </footer>
