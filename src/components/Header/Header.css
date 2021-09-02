@@ -1,13 +1,13 @@
-.header-page{
-  background-color:#ffc300;
-  position:fixed;
-  top:0;
-  left:0;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  width:100%;
-  height:200px;
+.header-page {
+  align-items: center;
+  background-color: #ffc300;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 h1{
