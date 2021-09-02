@@ -1,17 +1,17 @@
 .rating {
   background-color: #ffc300;
   border-radius: 25px;
-  color:black;
-  display:flex;
-  justify-content:center;
+  color: black;
+  display: flex;
   font-size: 16px;
   font-weight: 700;
+  justify-content: center;
+  margin: 1em;
   padding: 2px;
-  margin:1em;
-  width:50px;
+  width: 50px;
 }
 
-.rating-container{
-  display:flex;
+.rating-container {
+  display: flex;
   flex-direction:row-reverse;
 }
