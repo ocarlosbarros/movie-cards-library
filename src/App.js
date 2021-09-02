@@ -4,8 +4,6 @@ import './App.css';
 import React from 'react';
 
 /** Custom Imports */
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
 import MovieList from './components/MovieList/MovieList';
 
 /** Data */
@@ -14,9 +12,7 @@ import movies from './data';
 function App() {
   return (
     <main>
-      <Header />
       <MovieList movies={ movies } />
-      <Footer />
     </main>
   );
 }

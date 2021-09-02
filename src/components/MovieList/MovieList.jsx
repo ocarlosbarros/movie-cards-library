@@ -6,14 +6,20 @@ import PropTypes from 'prop-types';
 
 /** Custom Imports */
 import MovieCard from '../MovieCard/MovieCard';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 class MovieList extends Component {
   render() {
     const { movies } = this.props;
     return (
-      <div className="movie-list">
-        {movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)}
-      </div>
+      <section>
+        <Header />
+        <div className="movie-list">
+          {movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)}
+        </div>
+        <Footer />
+      </section>
     );
   }
 }
