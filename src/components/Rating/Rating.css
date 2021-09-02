@@ -1,8 +1,17 @@
 .rating {
-  background-color: #007bff;
+  background-color: #ffc300;
   border-radius: 25px;
-  color: white;
+  color:black;
+  display:flex;
+  justify-content:center;
   font-size: 16px;
   font-weight: 700;
-  padding: 3px 9px;
+  padding: 2px;
+  margin:0.5em;
+  width:50px;
+}
+
+.rating-container{
+  display:flex;
+  flex-direction:row-reverse;
 }
