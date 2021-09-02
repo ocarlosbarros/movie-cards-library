@@ -1,9 +1,3 @@
-/**
- * @author Carlos Barros
- * @version 1.0.0
- * @since 01/09/2021
- */
-
 /** React Imports  */
 import './App.css';
 import React from 'react';
@@ -25,3 +19,9 @@ function App() {
 }
 
 export default App;
+
+/**
+ * @author Carlos Barros
+ * @version 1.0.0
+ * @since 01/09/2021
+ */

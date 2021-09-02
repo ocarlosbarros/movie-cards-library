@@ -20,3 +20,9 @@ MovieList.propTypes = {
 };
 
 export default MovieList;
+
+/**
+ * @author Carlos Barros
+ * @version 1.0.0
+ * @since 01/09/2021
+ */
